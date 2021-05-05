@@ -1,0 +1,151 @@
+/* delete the following line if no text is used */
+/* edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #42A7A1;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* end of provided template */
+
+.graph-header {
+    position: relative;
+    top: 0px;
+    width: 300px;
+    height: 75px;
+    background-color: rgb(241, 178, 60);
+    color: white;
+}
+
+.weekly-report {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight:900;
+}
+
+.date-range {
+    position: absolute;
+    top: 39px;
+    left: 10px;
+    font-size: 14px;
+}
+
+.revenue {
+    position: absolute;
+    text-align: right;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.revenue-figure {
+    position: absolute;
+    text-align: right;
+    top: 35px;
+    right: 10px;
+    font-weight: 900;
+}
+
+.views {
+    position: absolute;
+    text-align: right;
+    top: 90px;
+    right: 120px;
+    font-size: 14px;
+}
+
+.views-line {
+    position: absolute;
+    top: 94px;
+    right: 160px;
+    width: 25px;
+    height: 5px;
+    border-radius: 2px;
+    background: rgb(233, 6, 6);
+}
+
+.purchases {
+    position: absolute;
+    text-align: right;
+    top: 90px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.purchases-line {
+    position: absolute;
+    top: 94px;
+    right: 80px;
+    width: 25px;
+    height: 5px;
+    border-radius: 2px;
+    background: rgb(40, 6, 233);
+}
+
+.graph-line-1 {
+    position: absolute;
+    height: 1px;
+    background: rgb(175, 174, 174);
+    width: 280px;
+    left: 10px;
+    top: 130px;
+}
+
+.graph-line-2 {
+    position: absolute;
+    height: 1px;
+    background: rgb(175, 174, 174);
+    width: 280px;
+    left: 10px;
+    top: 170px;
+}
+
+.graph-line-3 {
+    position: absolute;
+    height: 1px;
+    background: rgb(175, 174, 174);
+    width: 280px;
+    left: 10px;
+    top: 210px;
+}
+
+.days {
+    position: relative;
+    top: 150px;
+    left: 0px;   
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 12px;
+}
+

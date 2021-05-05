@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Challenge 4</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="frame">
+        <div class="center">
+            <div class="graph-header">
+                <div class="weekly-report">WEEKLY REPORT</div>
+                <div class="date-range">01. Feb - 07. Feb</div>
+                <div class="revenue">Revenue</div>
+                <div class="revenue-figure">$ 3,621.79</div>
+            </div>
+            <div class="graph-body">
+                <div class="views">Views</div>
+                <div class="views-line"></div>
+                <div class="purchases">Purchases</div>
+                <div class="purchases-line"></div>
+                <div class="graph-line-1"></div>
+                <div class="graph-line-2"></div>
+                <div class="graph-line-3"></div>
+                <div class="days">
+                    <div>MON</div>
+                    <div>TUE</div>
+                    <div>WED</div>
+                    <div>THU</div>
+                    <div>FRI</div>
+                    <div>SAT</div>
+                    <div>SUN</div>
+                </div>
+                
+                <svg>
+                    <marker id="red" viewBox="0 0 10 10" refX="5" refY="5" orient="auto">
+                        <circle fill="red" cx="5" cy="5" r="5"/>
+                    </marker>
+
+                    <polyline fill="none" stroke-width="2" stroke="#FA7373" points="33,70 75,60 118,65 158,55 196,70 232,40 270,39" marker-mid="url(#red)" marker-start="url(#red)" marker-end="url(#red)"></polyline>
+
+                    <marker id="blue" viewBox="0 0 10 10" refX="5" refY="5" orient="auto">
+                        <circle fill="blue" cx="5" cy="5" r="5"/>
+                    </marker>
+
+                    <polyline fill="none" stroke-width="2" stroke="blue" points="33,100 75,97 118,106 158,90 196,110 232,80 270,83" marker-mid="url(#blue)" marker-start="url(#blue)" marker-end="url(#blue)"></polyline>
+
+                </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
